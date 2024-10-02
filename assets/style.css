@@ -2,11 +2,10 @@ main {
   width: 50%;
   margin: auto;
 }
-
+header{text-align: center;}
 .logo {
   width: 100px;
-  display: flex;
-  justify-items: center;
+ 
 }
 
 .reference {
