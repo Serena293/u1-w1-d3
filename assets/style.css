@@ -1,1 +1,58 @@
-.logo{width: 100px;}
+main {
+  width: 50%;
+  margin: auto;
+}
+
+.logo {
+  width: 100px;
+  display: flex;
+  justify-items: center;
+}
+
+.reference {
+  border-top: 1px solid rgb(225, 150, 18);
+  background-color: rgb(247, 194, 98, 0.2);
+  color: rgb(64, 122, 103);
+  text-align: center;
+  padding: 5px;
+}
+
+.focaccia-img {
+  width: 100%;
+}
+
+.img-author {
+  text-align: center;
+  color: rgb(192, 190, 190);
+  font-size: 12px;
+}
+
+.subtitle {
+  font-weight: bold;
+}
+
+#featuredin {
+  color: #be6d16;
+  font-weight: bold;
+  margin-bottom: 0;
+}
+
+a {
+  color: rgb(2, 130, 109);
+}
+.featured {
+  margin-top: 0;
+  margin-bottom: 4em;
+}
+
+.container-featured {
+  border-left: 1px solid rgb(225, 150, 18);
+  padding-left: 15px;
+}
+
+hr {
+  border: none;
+  height: 1px;
+  background-color: aquamarine;
+  margin: 20px auto;
+}

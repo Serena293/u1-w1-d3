@@ -4,13 +4,13 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Lezione 3</title>
-    <link rel="stylesheet" href="assets/style.css">
+    <link rel="stylesheet" href="assets/style.css" />
   </head>
   <body>
     <header>
-      <img  class="logo" src="assets/img/logo.png" />
-      <div>
-        <p>Part of <strong>A SIMPLY FABULOUS THANKSGIVING</strong>/p></p>
+      <img class="logo" src="assets/img/logo.png" />
+      <div class="reference">
+        <p>Part of <strong>A SIMPLY FABULOUS THANKSGIVING</strong></p>
       </div>
     </header>
     <main>
@@ -24,11 +24,14 @@
           </p>
         </div>
         <div class="image">
-          <img src="./assets/img/focaccia.png" />
-          <p class="">Image: Sally Vegas</p>
-          <div>
-            <p>FETURED IN:</p>
-            <p><a href="#">Cranberry Recipes That Go Beyond Sauce</a></p>
+          <img class="focaccia-img" src="./assets/img/focaccia.png" />
+          <p class="img-author">Image: Sally Vegas</p>
+
+          <div class="container-featured">
+            <p id="featuredin">FEATURED IN:</p>
+            <p class="featured">
+              <a href="#">Cranberry Recipes That Go Beyond Sauce</a>
+            </p>
           </div>
         </div>
 
@@ -36,7 +39,7 @@
           <h3>Ingredients</h3>
           <hr />
           <div class="list">
-            <p>For the focaccia</p>
+            <p class="subtitle">For the focaccia</p>
             <ul>
               <li>4 cups(500g) all purpose flour</li>
               <li>1 2/2 teaspoons instant yeast</li>
@@ -45,7 +48,7 @@
             </ul>
           </div>
           <div class="list">
-            <p>For the topping:</p>
+            <p class="subtitle">For the topping:</p>
             <ul>
               <li>3 medium yellow onions, thinly sliced</li>
               <li>1 tablespoon balsamic vinegar</li>
@@ -58,18 +61,20 @@
             </ul>
           </div>
           <div class="method">
-            <h3>
-                method
-            </h3>
-            <hr>
-            <p>1. Make the focaccia dough</p>
-            <p>In a medium-sized mixing bowl, or in a stand mixer with a paddle arrachment, mix together all the dough ingredients until the flour is fully absorbed. You don't need to actually knead the dough, though I sometimes knead it a few times in the bowl when mixing by hand to inocrporate the last of the flour...</p>
+            <h3>Method</h3>
+            <hr />
+            <p class="subtitle">1. Make the focaccia dough</p>
+            <p>
+              In a medium-sized mixing bowl, or in a stand mixer with a paddle
+              arrachment, mix together all the dough ingredients until the flour
+              is fully absorbed. You don't need to actually knead the dough,
+              though I sometimes knead it a few times in the bowl when mixing by
+              hand to inocrporate the last of the flour...
+            </p>
           </div>
-          </article>
+        </article>
       </section>
+      <div>Read more on <a href="#">Simply Recipes</a></div>
     </main>
-    <footer>
-        <div>Read more on <a href="#">Simply Recipes</a></div>
-    </footer>
   </body>
 </html>
